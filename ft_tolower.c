@@ -6,13 +6,13 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 14:03:09 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/17 12:29:07 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 16:00:58 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(char c)
+int	ft_tolower(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 		return (c + 32);
 	return (c);
 }

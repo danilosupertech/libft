@@ -6,13 +6,13 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 14:01:11 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/21 10:11:27 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 16:00:30 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_toupper(char c)
+int	ft_toupper(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
 		return (c - 32);
 	return (c);
 }

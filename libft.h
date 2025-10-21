@@ -6,17 +6,16 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 09:47:27 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/21 10:18:47 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 15:43:18 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_LIBFT_H
-# define FT_LIBFT_H
-// #ifndef LIBFT_H
-// # define LIBFT_H
+#ifndef LIBFT_H
+# define LIBFT_H
 
 # include <stddef.h>
 # include <stdlib.h>
+# include <unistd.h>
 
 /* memory */
 void	*ft_memset(void *s, int c, size_t n);
@@ -46,6 +45,9 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strdup(const char *s);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 /* conversions */
 int		ft_atoi(const char *str);
@@ -53,6 +55,10 @@ int		ft_atoi(const char *str);
 /* extras */
 char	*ft_itoa(int n);
 char	*ft_strjoin(char const *s1, char const *s2);
-char *ft_strtrim(char const *s1, char const *set);
+char	*ft_strtrim(char const *s1, char const *set);
+char	**ft_split(char const *s, char c);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+void	ft_putchar_fd(char c, int fd);
 
 #endif

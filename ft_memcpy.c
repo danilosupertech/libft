@@ -6,7 +6,7 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 17:47:57 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/17 12:30:17 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 16:01:22 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,14 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char			*d;
-	const char		*s;
-	unsigned int	i;
+	char		*d;
+	const char	*s;
+	size_t		i;
 
+	if (n == 0 || dest == src)
+		return (dest);
+	if (!dest && !src)
+		return (dest);
 	d = (char *)dest;
 	s = (const char *)src;
 	i = 0;

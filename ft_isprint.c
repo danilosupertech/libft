@@ -6,11 +6,11 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 13:57:43 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/14 17:51:19 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 16:02:59 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(char c)
+int	ft_isprint(int c)
 {
 	return ((c >= 32 && c <= 126));
 }
