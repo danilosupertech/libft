@@ -6,12 +6,14 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 09:47:27 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/21 09:47:28 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 10:18:47 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef FT_LIBFT_H
+# define FT_LIBFT_H
+// #ifndef LIBFT_H
+// # define LIBFT_H
 
 # include <stddef.h>
 # include <stdlib.h>
@@ -51,5 +53,6 @@ int		ft_atoi(const char *str);
 /* extras */
 char	*ft_itoa(int n);
 char	*ft_strjoin(char const *s1, char const *s2);
+char *ft_strtrim(char const *s1, char const *set);
 
 #endif
