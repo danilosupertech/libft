@@ -6,7 +6,7 @@
 /*   By: danicort <danicort@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 17:00:25 by danicort          #+#    #+#             */
-/*   Updated: 2025/10/21 16:13:47 by danicort         ###   ########.fr       */
+/*   Updated: 2025/10/21 22:23:55 by danicort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,18 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int	len;
+	size_t		i;
+	char		ch;
 
-	if (!s)
-		return (NULL);
-	len = ft_strlen(s);
-	while (len >= 0)
+	ch = (char)c;
+	i = ft_strlen(s);
+	while (1)
 	{
-		if (s[len] == (char)c)
-			return ((char *)(s + len));
-		len--;
+		if (s[i] == ch)
+			return ((char *)(s + i));
+		if (i == 0)
+			break ;
+		i--;
 	}
 	return (NULL);
 }
