@@ -68,6 +68,6 @@ Funções implementadas na **Libft**, agrupadas por similaridade, com explicaç�
 
 ---
 
-✨ **Autor:** [Seu Nome Aqui]  
+✨ **Autor:** Danilo Goncalves  
 📦 **Projeto:** Libft — Escola 42  
 📄 **Descrição:** Implementação personalizada de funções padrão da linguagem C, para uso em projetos futuros.
