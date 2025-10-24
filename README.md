@@ -1,6 +1,6 @@
 # 📚 Libft — Funções Implementadas
 
-Este documento lista as funções implementadas na **Libft**, agrupadas por similaridade, com explicações curtas e diretas sobre o que cada uma faz.
+Funções implementadas na **Libft**, agrupadas por similaridade, com explicações curtas e diretas sobre o que cada uma faz.
 
 ---
 
