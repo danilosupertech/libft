@@ -1,0 +1,25 @@
+# Object files
+*.o
+
+# Libraries
+*.a
+
+# Executables
+*.out
+a.out
+
+# Test files and directories
+test
+tester
+*test*
+
+# Debug files
+*.dSYM/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
