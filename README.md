@@ -207,6 +207,7 @@ int main(void)
 {
     char *str = "Hello, 42!";
     char *dup;
+    char *joined;
 
     // Usando ft_strlen
     printf("Tamanho da string: %zu\n", ft_strlen(str));
@@ -214,13 +215,13 @@ int main(void)
     // Usando ft_strdup
     dup = ft_strdup(str);
     printf("String duplicada: %s\n", dup);
+
+    // Usando ft_strjoin
+    joined = ft_strjoin(dup, " Welcome!");
+    printf("Strings unidas: %s\n", joined);
+
     free(dup);
-
-    // Usando ft_toupper em cada caractere
-    char *upper = ft_strmapi(str, (char (*)(unsigned int, char))&ft_toupper);
-    printf("String em maiúsculas: %s\n", upper);
-    free(upper);
-
+    free(joined);
     return 0;
 }
 ```
