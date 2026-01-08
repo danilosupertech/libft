@@ -201,7 +201,7 @@ Adiciona a flag `-g` para incluir símbolos de debug (útil com `gdb` ou `lldb`)
 
 ### 1. Clone o repositório
 ```bash
-git clone <repository-url>
+git clone https://github.com/username/libft.git
 cd libft
 ```
 
@@ -308,8 +308,9 @@ norminette *.c *.h
 
 ### Instalar Norminette
 ```bash
-pip install norminette
+pip3 install norminette
 ```
+**Nota:** Requer Python 3.
 
 **Normas seguidas:**
 - Máximo de 25 linhas por função
