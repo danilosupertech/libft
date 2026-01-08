@@ -9,7 +9,6 @@
 [![42 School](https://img.shields.io/badge/42-Porto-000000?style=flat&logo=42&logoColor=white)](https://www.42porto.com/)
 [![Norminette](https://img.shields.io/badge/Norminette-passing-success?style=flat)](https://github.com/42School/norminette)
 [![Language](https://img.shields.io/badge/Language-C-blue?style=flat&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)](LICENSE)
 
 </div>
 
@@ -24,7 +23,7 @@
   - [🧵 Manipulação de Strings](#-manipulação-de-strings)
   - [🧩 Manipulação e Criação de Strings](#-manipulação-e-criação-de-strings)
   - [🔢 Conversão Numérica](#-conversão-numérica)
-  - [🖨️ Funções de Saída](#️-funções-de-saída)
+  - [🖨️ Funções de Saída](#-funções-de-saída)
 - [📋 Checklist de Funções](#-checklist-de-funções)
 - [🔨 Como Compilar](#-como-compilar)
 - [💡 Como Usar](#-como-usar)
@@ -202,7 +201,7 @@ Adiciona a flag `-g` para incluir símbolos de debug (útil com `gdb` ou `lldb`)
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/danilosupertech/libft.git
+git clone <repository-url>
 cd libft
 ```
 
@@ -383,7 +382,7 @@ As seguintes man pages foram consultadas durante o desenvolvimento:
 
 ### 📄 Licença
 
-Este projeto é de código aberto para fins educacionais. Sinta-se livre para estudar, modificar e compartilhar, mas lembre-se das políticas de plágio da 42.
+Este projeto é de código aberto para fins educacionais da 42 School. Sinta-se livre para estudar e aprender, mas lembre-se das políticas de plágio da 42.
 
 ---
 
