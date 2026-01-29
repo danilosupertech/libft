@@ -1,5 +1,26 @@
 # 📚 Libft — Funções Implementadas
 ---
+# libft
+
+This project is a custom implementation of essential functions from the C standard library, developed as part of the **42 Common Core** curriculum.
+
+## 📌 Context
+The goal of **libft** is to deeply understand:
+- Memory allocation and management
+- Low-level string and data manipulation
+- Reusable and well-structured C code
+
+All functions are written from scratch, without using the standard C library (except for allowed system calls).
+
+## 🧠 Skills & Concepts
+- Pointers and memory allocation
+- Strings and arrays
+- Linked lists
+- Modular C design
+- Makefile and compilation rules
+
+## 🎯 Purpose
+This library serves as a foundation for many other projects at 42, reinforcing solid C programming fundamentals.
 
 Funções implementadas na **Libft**, agrupadas por similaridade, com explicações curtas e diretas sobre o que cada uma faz.
 
